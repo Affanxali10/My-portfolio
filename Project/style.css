@@ -98,6 +98,18 @@ h1 {
 .project-carda:hover {
     transform: scale(1.05);
 }
+project-card {
+    padding: 20px;
+    border-radius: 8px;
+    margin: 7px;
+    text-align: center;
+    background: rgb(238, 174, 202);
+    background-image: linear-gradient(rgb(68, 68, 68), rgb(179, 43, 43));
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+    transition: transform 0.3s;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
